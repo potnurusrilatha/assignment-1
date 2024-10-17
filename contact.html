@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="styles/contactstyle.css">
+</head>
+<body>
+    <header class="container">
+        <h1> Featured Recipes!</h1>
+        <nav> 
+            <a href="../Recipe-Website/index.html">Home</a>
+            <a href="../Recipe-Website/recipes.html">Recipes</a>
+            <a href="../Recipe-Website/contact.html">Contact</a>   
+        </nav>
+    </header>
+ <main class="main-content">
+        <div class="contact-container">
+            <h2>We'd Love to Hear from You!</h2>
+            <p>Whether you have a question, feedback, or just want to say hello, feel free to reach out using the form below.</p>
+        <div>
+        <form action="mailto: something@gmail.com" enctype="text/plain" method="POST" class="user__form">
+            <legend>Submit your details here</legend>
+
+            <label for="user-name">Please enter your name:</label>
+            <input type="text" class="name-input" name="user-name" id="user-name" placeholder="" required>
+
+            <label for="user-age">Please enter your email</label>
+            <input type="text" id="email" name="email"> 
+
+            <label for="user-message">Enter your message below</label>
+            <textarea id="user-message" class="user-message" name="user-message" required></textarea>
+
+            <button>Submit form!</button>
+        </form>
+            </div>
+
+            <div class="contact-info">
+                <h3>Get in Touch</h3>
+                <p><i class="fas fa-phone"></i>+46 734986150</p>
+                <p><i class="fas fa-envelope"></i>potnuru.srilatha1241@gmail.com</p>
+                <p><i class="fas fa-map-marker-alt"></i>Torneagatan,Kista,Stockholm</p>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <p>&copy; 2024 Sree</p>  
+    </footer>    
+</body>
+</html>
