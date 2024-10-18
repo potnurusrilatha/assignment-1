@@ -1,59 +1,50 @@
 /* General Styling */
 * {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
-html {
-    height: 100vh;   
-}
-
-body {
+/* Styling the header */
+header.container {
     background-color: #f8f8f8;
-    width:100%;
-    min-height: 100vh;
-}
-
-/* Header Styling */
-.header {
-    background-color: #8A897C;
-    padding: 32px;
-    text-align: center;  
-}
-
-.container {
-    background-color: #8A897C;
-    color: white;
     padding: 20px;
-    text-align: center;
+    border-bottom: 2px solid #ddd;
+}
+
+/* Navbar styling */
+.navbar {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; 
     align-items: center;
-    flex-wrap: wrap;
 }
 
-.container h1 {
-    font-size: 2rem;
+/* Title styling */
+h1 {
+    font-size: 24px;
+    margin-left: 20px;
 }
 
-.container:hover {
-    color: tomato;
+/* Navigation styling */
+nav ul {
+    list-style: none; 
+    display: flex; 
 }
 
-nav {
-    display: flex;
-    gap: 20px;
+nav ul li {
+    margin-left: 20px;
 }
 
-nav a {
+nav ul li a {
     text-decoration: none;
-    color: rgb(216, 13, 13);
-    font-size: 1.1rem;
-    padding: 10px;
+    color: #333;
+    font-size: 18px;
+    padding: 5px 10px;
     transition: color 0.3s ease;
 }
 
-nav a:hover {
-    color: aqua;
+nav ul li a:hover {
+    color: #007BFF; 
 }
 
 /* Main Content Styling */
@@ -160,6 +151,15 @@ nav a:hover {
 
 /* For screens smaller than 768px (Tablets and smaller) */
 @media screen and(max-width: 768px) {
+    .header, footer {
+        padding: 20px; 
+    }
+    
+    .logo {
+        margin-top: 10px;
+        width: 80px;
+    }
+
     .contact-container {
         width: 100%;
         padding: 15px;
