@@ -1,69 +1,7 @@
-/* General Styling */
-* {
-    box-sizing: border-box;
-}
-
-html {
-    height: 100vh;   
-}
-
-body {
-    background-color: #f8f8f8;
-    width:100%;
-    min-height: 100vh;
-}
-
-/* Header Styling */
-.header {
-    background-color: #8A897C;
-    padding: 32px;
-    text-align: center;  
-}
-
-.container {
-    background-color: #8A897C;
-    color: white;
-    padding: 20px;
-    text-align: center;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
-.logo {
-    width: 100px;
-    height: auto;
-}
-
-.container h1 {
-    font-size: 2rem;
-}
-
-.container:hover {
-    color: tomato;
-}
-
-nav {
-    display: flex;
-    gap: 20px;
-}
-
-nav a {
-    text-decoration: none;
-    color: rgb(216, 13, 13);
-    font-size: 1.1rem;
-    padding: 10px;
-    transition: color 0.3s ease;
-}
-
-nav a:hover {
-    color: aqua;
-}
-
 /* Main Content Styling */
 .main-content {
     width: 90%;
+    height: 100vh;
     margin: 30px auto;
     padding: 20px;   
 }
@@ -78,7 +16,6 @@ nav a:hover {
 
 .recipe-card {
     background-color: #fff;
-    margin: 30px 10px;
     border-radius: 8px;
     border: 1px solid #ccc;
     overflow: hidden;
@@ -99,13 +36,6 @@ nav a:hover {
     color: #fff;
     padding: 15px 0;
     cursor: pointer;
-}
-
-/*footer styling */
-.footer {
-    background-color: #8A897C;
-    padding: 32px;
-    text-align: center;  
 }
 
 /* ================== RESPONSIVE DESIGN ================== */

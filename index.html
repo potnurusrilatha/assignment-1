@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/homestyle.css">
+    <link rel="stylesheet" href="./styles/global.css">
     <title>Recipe Webpage</title>
 </head>
 <body>
@@ -12,23 +13,23 @@
             <img src="./Images/logo.png" alt="My Logo" class="logo">
             <h1> Delicous Recipes!</h1>
             <nav> 
-                <a href="../assignment-1/index.html">Home</a>
-                <a href="../assignment-1/recipes.html">Recipes</a>
-                <a href="../assignment-1/contact.html">Contact</a> 
+                <a href="./index.html" class="active">Home</a>
+                <a href="./recipes.html">Recipes</a>
+                <a href="./view-recipes.html">view-recipes</a> 
+                <a href="./contact.html">Contact</a> 
             </nav>  
     </header>
     <!-------- main-content --------> 
-    <section class="main">
+    <main class="main-content">
         <div class="main-section">
             <h2>Welcome to our Recipe Collection!</h2>
             <p>search mouth watering recipes to satisfy your craving.</p>
+            <form action="#" class="search-box">
+                <input type="text" placeholder="Search Recipe">
+                <button>Submit</button>
+            </form>
         </div>
-
-        <form action="#" class="search-box">
-            <input type="text" placeholder="Search Recipe">
-            <button>Submit</button>
-        </form>
-    </section>
+    </main>
     <!------------footer part------->
     <footer class="footer">
         <p>&copy; 2024 Sree</p>  
